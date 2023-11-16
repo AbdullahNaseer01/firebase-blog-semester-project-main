@@ -196,7 +196,7 @@ const Detail = ({ user }) => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="col-span-2">
-            <div className=" p-4 shadow-xl text-center">
+            <div className=" p-4 shadow-xl ">
               <div className="blog-title text-lg">
                 <span>{blog?.timestamp.toDate().toDateString()}</span>
                 <h2 className="text-4xl font-bold">{blog?.title}</h2>
